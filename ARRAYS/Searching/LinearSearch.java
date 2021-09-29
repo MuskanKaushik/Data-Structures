@@ -7,7 +7,7 @@ public class LinearSearch {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
-        int flag = 0;
+        int f = 0;
 
         for(int i=0;i<n;i++)
         {
@@ -21,11 +21,11 @@ public class LinearSearch {
             if(key == arr[i])
             {
                 System.out.println("Key found at index "+i);
-                flag = 1;
+                f = 1;
                 break;
             }
         }
-        if(flag == 0)
+        if(f == 0)
         {
             System.out.println("Key not found");
         }
