@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class SelectionSort {
     public void Selection(int[] arr,int n){
         int min, temp;
