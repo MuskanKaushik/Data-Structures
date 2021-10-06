@@ -26,4 +26,10 @@ The following repository consists of Data Structure And Algorithms.
 --> Selection Sort - Selection Sort is the combination of searching and sorting. It sorts an array by repeatedly finding the minimum element (considering ascending order) from 
                      unsorted part and putting it at the beginning. In every iteration of selection sort, the minimum element from the unsorted subarray is picked and moved to                          sorted subarray.
     Complexity     - The time complexity is O(n2).
+    
+--> Quick Sort     - Divide: Rearrange the elements and split the array into two subarrays and an element (known as pivot) in between such that each element in the left                              subarray is less than or equal to pivot element and each element in the right subarray is greater than the pivot element.
+                     Conquer: Recusively sort the two subarrays.
+                     Combine: The solution of two sub problems to create a solution to the original problem.
+    Complexity     - The best and average time complexity is O(n * logn).
+                     The worst time complexity is O(n2).
       
