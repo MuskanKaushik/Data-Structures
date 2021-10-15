@@ -103,7 +103,7 @@ public class Deletion {
 
         System.out.println();
         d.deleteposition(3);
-        System.out.println("Linked List after Deletion : ");
+        System.out.println("Linked List after Deletion from given position : ");
         d.display(head);
         
     }   
