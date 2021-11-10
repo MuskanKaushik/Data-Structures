@@ -37,27 +37,27 @@
 
 ### Tree can be defined as a collection of entities (nodes) linked togeher to stimulate a hierarchy.
 
-#### ⬜ROOT --> The topmost node having no parent element is the root of the tree.
+- **ROOT** --> The topmost node having no parent element is the root of the tree.
 
-#### ⬜NODES --> They contain the information and also the link to next/successer node.
+- **NODES** --> They contain the information and also the link to next/successer node.
 
-#### ⬜PATH --> The sequence of consecutive edges from source nodes to destination node.
+- **PATH** --> The sequence of consecutive edges from source nodes to destination node.
 
-#### ⬜ANCESTOR --> any predecessor node on the path from root to that node.
+- **ANCESTOR** --> any predecessor node on the path from root to that node.
 
-#### ⬜DECENDENT --> any successor node on the path from root to that node.
+- **DECENDENT** --> any successor node on the path from root to that node.
 
-#### ⬜SUBTREE --> The node of subtree must be joined with root and it should then contain all its desendent.
+- **SUBTREE** --> The node of subtree must be joined with root and it should then contain all its desendent.
 
-#### ⬜SIBLING --> Nodes which consists of same parent are sibling.
+- **SIBLING** --> Nodes which consists of same parent are sibling.
 
-#### ⬜DEGREE --> Number of children of the node is the degree of that node.
+- **DEGREE** --> Number of children of the node is the degree of that node.
 
-#### ⬜DEGREE OF TREE --> The maximum degree of any node of the tree is known as degree of that tree.
+- **DEGREE OF TREE** --> The maximum degree of any node of the tree is known as degree of that tree.
 
-#### ⬜DEPTH OF NODE --> Length of path from root to that node.
+- **DEPTH OF NODE** --> Length of path from root to that node.
 
-#### ⬜HEIGHT OF NODE --> NO. of edges in the longest path from that node to a leaf.
+- **HEIGHT OF NODE** --> NO. of edges in the longest path from that node to a leaf.
                     Height of root node = longest path (path consisting of max. number of edges).
                     Also height of the tree is longest path of root node.
                     Level of a tree = height of tree.
